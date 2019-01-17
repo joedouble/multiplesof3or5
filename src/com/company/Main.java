@@ -10,7 +10,6 @@ public class Main {
         for (int counter = 1; counter < targetNum; counter++) {
             if(counter % 3 == 0 || counter % 5 == 0) {
                 sum+=counter;
-            } else {
             }
         }
         System.out.println("The sum is " + sum + ".");
